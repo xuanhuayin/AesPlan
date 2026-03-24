@@ -1,0 +1,58 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Outputs and generated files
+outputs/
+*.png
+*.jpg
+*.jpeg
+
+# Data
+data/
+
+# Large files
+*.pdf
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Internal planning docs
+*_proposal*.md
+*_directions*.md
+*_progress*.md
+*_analysis*.md
+*_results*.md
+overnight_*.md
+research_*.md
+method_*.md
+dpcache_plus_*.md
+new_paper_*.md
+proposal_shortlist_*.md
+aesplan_topcconf_*.md
+accelaes_student_*.md
+AesBudget_*.md
+PHASE0_*.md
+analysis_progress.md
+
+# Environment
+.env
+.venv*/
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
