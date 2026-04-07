@@ -1,0 +1,23 @@
+torch>=2.1.0
+torchvision>=0.16.0
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.27.0
+open_clip_torch>=2.24.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+tqdm>=4.65.0
+
+# Aesthetic metrics
+ImageReward>=1.5.0
+hpsv2>=1.2.0
+
+# LAION aesthetic predictor
+git+https://github.com/LAION-AI/aesthetic-predictor.git
+
+# Perceptual similarity
+lpips>=0.1.4
+
+# PickScore
+git+https://github.com/yuvalkirstain/PickScore.git
